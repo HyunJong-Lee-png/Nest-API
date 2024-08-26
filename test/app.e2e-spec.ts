@@ -38,7 +38,7 @@ describe('AppController (e2e)', () => {
         .expect([]);
     });
 
-    //it은 test의 별칭이다. it sholud be어쩌고로 시작하기 편해서 이렇게 지었다나뭐라나
+    //it은 test의 별칭이다. it sholud be어쩌고로 시작하기 편해서 이렇게 지음
     test('POST', () => {
       return request(app.getHttpServer())
         .post('/movies')
